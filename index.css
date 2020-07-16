@@ -1,0 +1,23 @@
+body {
+    background-color: powderblue;
+}
+h1{
+    color: royalblue;
+    font-family: monospace;
+    font-size: x-large;
+}
+h2{
+    color: sienna;
+    font-family: fantasy;
+    font-size: x-small;
+    text-align: center;
+}
+p{
+    border: 2px solid black ;
+    margin: 100px;
+    padding: 3px;
+}
+form{
+    /* width: 50%; */
+    text-align: center;
+}
