@@ -1,23 +1,42 @@
+html,
 body {
-    background-color: powderblue;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: thistle;
 }
-h1{
-    color: royalblue;
-    font-family: monospace;
-    font-size: x-large;
+
+form {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    border-radius: 35px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    /* border-
+    radius: 2px black; */
 }
-h2{
-    color: sienna;
-    font-family: fantasy;
+
+form div * {
+    display: block;
+}
+
+form div {
+    margin: 10px;
+}
+
+#login {
+    border-radius: 30px;
+    background-color: steelblue;
+    align-self: center;
+    width: 50px;
+}
+
+#rememberme {
+    align-self: center;
     font-size: x-small;
-    text-align: center;
 }
-p{
-    border: 2px solid black ;
-    margin: 100px;
-    padding: 3px;
-}
-form{
-    /* width: 50%; */
-    text-align: center;
+
+form .field-padding {
+    padding: 10px;
 }

@@ -1,67 +1,30 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
+
 <head>
-    <!-- <style>
-        back
-        body{background-color: rgb(59, 14, 14);}
-        h2{color: slateblue;}
-        label{color: teal;}
-    </style> -->
-    <meta charset='utf-8'>
-    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
-    <title>Page Title</title>
-    <meta name='viewport' content='width=device-width, initial-scale=1'>
-    <link rel='stylesheet' type='text/css' media='screen' href='index.css'>
-    <script src='index.js'></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <title>Document</title>
 </head>
-<body >
-<form>
-    <p> This is a practice form for fun</p>
-    <label id="labelusername" for="username"> Username: </label> 
-    <input type="text" id="username" name="Username"> <br>
-    <label class="tea" for="password"> Password: </label>
-    <input type="password" id="password" name="password"> <br>
-    <input type="submit" value="submit"> <br><br>
 
-   
-
-    <input type="color" id="favecolor" name="favecolor">
-    <label for="favecolor"> Choose your favecolor</label> <br><br>
-
-<h2> Select your gender</h2>
-     <input type="radio" id="female" name="gender" value="Female">  
-     <label id="female" for="female"> Female</label> <br>
-     <input type="radio" id="male" name="gender" value="male">
-     <label id="male" for="male"> Male </label> <br>
-     <input type="radio" id="other" name="gender" value="Other">
-     <label id="other" for="other"> Other</label> <br><br>
+<body>
+    <form>
+        <div>
+        <label for="username">Username</label>
+        <input class="field-padding" type="text" name="username" id="username" placeholder="Username">
+        </div>
+        <div>
+        <label for="password"> Password </label>
+        <input class="field-padding" type="password" name="password" id="password" placeholder="Password">
+        </div>
+        <input type="submit" name="login" value="Login" id="login">
+        <label for="rememberme" id="rememberme" >
+            <input type="checkbox" name="rememberme" > Remember Me
+        </label>
+    </form>
 
 
-    <label id="Phone" for="Phone">Phone Number</label>
-    <input type="number" id="Phone" name="Phone"> <br> <br>
-
-
-<label id="SelectCar" for="cars" > Select your car</label>
-    <select id="cars" name="cars">
-        <option value="volvo">Volvo</option>
-        <option value="saab">Saab</option>
-        <option value="fiat">Fiat</option>
-        <option value="audi">Audi</option>
-        <option value="unselected" selected> Not selected yet</option> 
-        </select>
-        <br><br>
-
-<h1> Your Opinion!</h1> <br>
-      <textarea name="message" rows="10" cols="20" style="width: 200px; height:200px; ;"> </textarea> 
-      <br><br>
-      <!-- <input type="submit" value="login"> <br> <br> -->
-
-      <input type="checkbox" name="City" id="city" value="Ramallah">
-      <label for="City"> I live in Ramallah</label>
-      <input type="checkbox" name="university"id="university" value="Birzeit">
-      <label for="university"> I go to Birzeit university</label> <br> <br>
-      <button type="submit">login</button>
-      <input type="reset">
-</form>
 </body>
+
 </html>
